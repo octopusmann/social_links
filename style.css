@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 174px 0px 175px 0px;
+    background-color: #141414;
+    font-family: Inter;
+
+    
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 384px;
+    height:611px;
+    background: var(--Dark-Grey, #1F1F1F);
+    border-radius: 20px;
+    box-shadow: 12px 0px 30px 3px;
+
+}
+.info_option{
+    margin: 1.2rem 2.5rem  50px 2.5rem;
+    color: var(--White, var(--White, #FFF));
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.github{
+    width: 304px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:var(--Grey, #333);
+    padding: 12px;
+    font-family: Inter;
+}
+.github:hover{
+    color:#141414;
+    cursor: url(./assets/images/handcursor.svg),pointer;
+   
+    background-color: #C4F82A;
+}
+.frontend_mentor{
+    width: 304px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--Grey, #333);
+    margin-top: 0.8rem;
+    padding: 12px;
+}
+.frontend_mentor:hover{
+    color:#141414;
+    cursor: url(./assets/images/handcursor.svg),pointer;
+    background-color: #C4F82A;
+}
+.linkedin{
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    background: var(--Grey, #333);
+    margin-top: 0.8rem;
+    padding: 12px;
+}
+.linkedin:hover{
+    color:#141414;
+    cursor: url(./assets/images/handcursor.svg),pointer;
+    background-color: #C4F82A;
+}
+.twitter{
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    background: var(--Grey, #333);
+    margin-top: 0.8rem;
+    padding: 12px;
+}
+.twitter:hover{
+    color:#141414;
+    cursor: url(./assets/images/handcursor.svg),pointer;
+    background-color: #C4F82A;
+}
+.instagram{
+    width: 304px;
+    height: 45px;
+    border-radius: 8px;
+    background: var(--Grey, #333);
+    margin-top: 0.8rem;
+    padding: 12px;
+}
+.instagram:hover{
+    color:#141414;
+    cursor: url(./assets/images/handcursor.svg),pointer;
+    background-color: #C4F82A;
+}
+.image_woman{
+    width: 88px;
+    height: 88px;
+    border-radius:50rem;
+    margin-top: 40px;
+    margin-left: 38%;
+}
+
+h1{
+    margin-top: 1.2rem;
+    color: var(--White, var(--White, #FFF));
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+h4{
+    color: var(--Neon-Green, var(--Neon-Green, #C4F82A));
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+p{
+    margin-bottom: 10px;
+    color: var(--White, var(--White, #FFF));
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+@media(max-width:375px)
+{
+    .main_container{
+        width: 327px;
+        height: 579px;
+
+    }
+}
